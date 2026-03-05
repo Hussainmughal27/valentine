@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3cfd6;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.sticker-container img {
+    width: 250px;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+p {
+    color: #555;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn a {
+    text-decoration: none;
+    background: #eee;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    color: black;
+    display: inline-block;
+}
