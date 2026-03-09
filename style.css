@@ -44,3 +44,46 @@ p {
     color: black;
     display: inline-block;
 }
+.help-box{
+    position:fixed;
+    bottom:60px;
+    right:20px;
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
+
+/* text */
+.help-text{
+    font-size:14px;
+    color:#8b5e3c;
+    font-weight:bold;
+}
+
+/* animated hand */
+.arrow{
+    font-size:18px;
+    animation:point 1s infinite;
+}
+
+@keyframes point{
+    0%{transform:translateX(0);}
+    50%{transform:translateX(-5px);}
+    100%{transform:translateX(0);}
+}
+
+/* mail icon */
+.mail-icon{
+    font-size:26px;
+    background:#f8c8dc;
+    border:2px solid #8b5e3c;
+    border-radius:50%;
+    padding:8px;
+    cursor:pointer;
+    box-shadow:0 4px 10px rgba(0,0,0,0.25);
+    transition:0.3s;
+}
+
+.mail-icon:hover{
+    transform:scale(1.1);
+}
